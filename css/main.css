@@ -1,3 +1,15 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway&display=swap';
+.calculator {
+  font-family: "Raleway-Regular"; }
+
+.calculator__btn, .calculator__btn--clear, .calculator__btn--operator {
+  width: 95px;
+  height: 95px;
+  margin: 7px;
+  border-radius: 5%;
+  font-size: 40px;
+  border: transparent; }
+
 .calculator {
   background-color: #000;
   width: 540px;
@@ -17,13 +29,7 @@
     margin: auto;
     width: 500px; }
   .calculator__btn {
-    width: 95px;
-    height: 95px;
-    background-color: #fff;
-    margin: 7px;
-    border-radius: 5%;
-    font-size: 40px;
-    border: transparent; }
+    background-color: #fff; }
     .calculator__btn--clear {
       background-color: grey; }
     .calculator__btn--operator {
