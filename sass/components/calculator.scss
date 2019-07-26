@@ -21,19 +21,16 @@
 
     }
     &__btn {
-        width: 95px;
-        height: 95px;
+        @extend %buttonStyles;
         background-color: #fff;
-        margin: 7px;
-        border-radius: 5%;
-        font-size: 40px;
-        border: transparent;
-
+        
         &--clear {
             background-color: grey;
+            @extend %buttonStyles;
         }
         &--operator {
             background-color: orange; 
+            @extend %buttonStyles;
         }
     }
 }
